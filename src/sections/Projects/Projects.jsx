@@ -3,6 +3,7 @@ import youtube from "../../assets/youtube.png";
 import edusity from "../../assets/edusity.png";
 import advice from "../../assets/advice.png";
 import bmw from "../../assets/bmw.png";
+import gemini from "../../assets/gemini1.png";
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -15,6 +16,13 @@ function Projects() {
           link1="https://github.com/amalthomas1996/YoutubeClone"
           link2="https://youtube-clone79.netlify.app/"
           h3="YouTube"
+          p="Clone(React)"
+        />
+        <ProjectCard
+          src={gemini}
+          link1="https://github.com/amalthomas1996/Gemini-clone"
+          link2="https://gemini-clone96.netlify.app/"
+          h3="Google Gemini"
           p="Clone(React)"
         />
         <ProjectCard
