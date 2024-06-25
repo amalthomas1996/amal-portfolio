@@ -36,7 +36,7 @@ function Hero() {
           <br />
           Thomas
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Web Developer</h2>
         <span>
           <a href="https://twitter.com/" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
@@ -52,7 +52,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern React web apps for commercial
+          With a passion for developing modern web apps for commercial
           businesses.
         </p>
         <a href={CV} download>
